@@ -36,6 +36,13 @@ github_run_id = os.environ.get("GITHUB_RUN_ID")
 beijing_time = os.environ.get("BEIJING_TIME")
 github_step_summary = os.environ.get("GITHUB_STEP_SUMMARY")
 
+print("账号为：",username)
+print("密码为：",password)
+print("token为：",token)
+print("url为：",url)
+
+
+
 # 将字符串转换为布尔值
 # 是否强制推送信息
 # 若是非GitHub Actions环境,则默认强制推送信息
